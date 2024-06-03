@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+  }
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1f2039;
+  }
+  
+  a {
+    color: #242424;
+    text-decoration: none;
+  }
+  
+  em {
+    color: #a5b4fc;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h2 {
+    color: #f9f8ff;
+
+  }
+  
+  p,
+  li {
+    font-size: 1.1em;
+    color: #f9f8ff;
+  }
+  
+  header,
+  footer {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 50px;
+  }
+  
+  .cta {
+    display: inline-block;
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 50px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    
+  }
+  
+  .cta:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+  }
+  
+  .lien-icone:hover {
+    opacity: 0.5;
+  }
+  
+  .carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;*
+    padding: 50px;
+  }
+
+  .carre-contenu h2{
+    margin-top: 30px
+  }
+
+  .carre-contenu ul {
+    margin-top: 30px;
+  }
+
+  section{
+    padding: 80px;
+  }
+
+  .a-propos-main {
+    width: 50%;
+    margin: auto;
+  }
+  .en-tete{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .accueil-introdution{
+    display: flex;
+    flex-direction: row;
+    margin: ;
+  }
+  .portfolio-section-photos {
+    background-color: white;
+  }
+  
+  .portfolio-section-photos h2 {
+    color: #242424;
+    margin-bottom: 80px;
+  }
+  
+  .paysages img,
+  .portraits img {
+    width: 100%;
+    height: 100%;
+    /* Même si vous ne connaissez pas cette propriété, vous en aurez besoin pour permettre aux images de respecter les dimensions de la grid CSS */
+    object-fit: cover;
+  }
+  .paysages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+
+  }
+  .portraits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px ;
+    gap: 15px;
+
+  }
+  
+  .accueil-introdution h1 {
+    padding: 0 200PX 0 0;
+    margin-left: 100PX;
+  }
+
+  .accueil-introdution p {
+    padding: 0 250PX 50PX 0;
+    margin-top: 30px;
+    margin-left: 100PX;
+
+  }
+
+  .accueil-introdution a {
+
+    margin-left: 100px;
+    padding: 20px 40px 20px 40px;
+    }
+ 
+    .accueil-introdution img{
+
+    margin-right: 200px;  }
+
+    .dernier_projet h2{
+      text-align: center;
+      padding: 50px;
+    }
+
+    .images_projet {
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 311px 311px ;
+      gap: 15px;
+     
+    }
+    .images_projet img{
+      width: 100%;
+    height: 100%;
+    /* Même si vous ne connaissez pas cette propriété, vous en aurez besoin pour permettre aux images de respecter les dimensions de la grid CSS */
+   
+    }
+    
